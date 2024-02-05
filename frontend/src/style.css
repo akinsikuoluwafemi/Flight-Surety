@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffcc00;
+  text-align: center;
+}
+
+.bg-outer {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  background-image: url("../public/images/flight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-position: center; */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+
+  align-items: center;
+}
+
+.badge {
+  background-color: #ffcc00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+span {
+  color: #ffcc00;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flight-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.top-20 {
+  margin-top: 20px;
+}
+
+h5 {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label.form {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input {
+  margin-top: 10px;
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+select {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
